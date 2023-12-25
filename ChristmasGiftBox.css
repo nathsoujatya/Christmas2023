@@ -1,0 +1,104 @@
+/* src/ChristmasGiftBox.css */
+
+/*
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('C:\Users\HP\Desktop\Christmas\my-react-app\src\bg.PNG'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5; 
+}
+
+.gift-box-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff; 
+  font-size: 18px; 
+}
+
+.small-gift-box {
+  width: 30px; 
+  height: 30px; 
+  background-image: url('C:\Users\HP\Desktop\Christmas\my-react-app\src\box.PNG'); 
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px; 
+}
+*/
+
+/* src/ChristmasGiftBox.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('C:\Users\HP\Desktop\Christmas\my-react-app\src\bg.PNG'); /* Set your desired background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5; /* Set the opacity of the background image */
+}
+
+.gift-box-container {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.gift-box {
+  width: 150px; /* Set the width of the small gift box */
+  height: 150px; /* Set the height of the small gift box */
+  background-image: url('C:\Users\HP\Desktop\Christmas\my-react-app\src\box.PNG'); /* Set the path to your small gift box image */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+/* src/ChristmasGiftBox.css */
+
+.cake-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cake-image {
+  width: 100px;
+  height: 100px;
+  background-image: url('C:\Users\HP\Desktop\Christmas\my-react-app\src\cake.PNG');
+  background-size: cover;
+  background-position: center;
+}
+
+.message {
+  font-size: 20px;
+  margin-top: 10px;
+}
